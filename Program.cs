@@ -21,6 +21,13 @@ while (true)
     }
 }
 async void MessageHandle (Message message){
+
+
+
+
+
+
+
     await botClient!.SendTextMessageAsync(message.Chat.Id, $"{message.From.Username} Ты мне писал {message.Text}?");
 }
 
