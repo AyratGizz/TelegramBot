@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AB5oMiRYZ+gQ5Xh5UWj2Zr2hhvSdoPrUc1Rb0khd9IPOhNAzgpUQNJLbjIGRslBWfn0hdSGkNwcxl5N9jFzryg==",
+  "dgSpecHash": "uaqLYX+TbKMFy8RA6lUl8DgD+65lOK6wnM9Jc6ThxROQK3vODMsnIo5NmT1XXtB/UKzGUFQhtBgUX19U5ihXJQ==",
   "success": true,
   "projectFilePath": "E:\\GEEK_BRAINS\\Git_GB\\TelegaBot\\TelegaBot\\TelegaBot.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Айрат\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Айрат\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
