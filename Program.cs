@@ -17,15 +17,15 @@ while (true)
                 updates = await botClient.GetUpdatesAsync(updates[^1].Id + 1);
                 break;
             }
+
+            
         }
     }
 }
 async void MessageHandle (Message message){
-
-
-
-
-
+    if (message.Text == "Привет!"){
+        await botClient!.SendTextMessageAsync(message.Chat.Id, "Ухты, а ты вежливый!");
+    }
 
 
     await botClient!.SendTextMessageAsync(message.Chat.Id, $"{message.From.Username} Ты мне писал {message.Text}?");
